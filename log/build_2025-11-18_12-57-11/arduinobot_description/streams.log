@@ -1,0 +1,44 @@
+[0.147s] Invoking command in '/mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nacho/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/build/arduinobot_description -- -j20 -l20
+[0.242s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.659s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.373s] -- Added test 'lint_cmake' to check CMake code style
+[1.720s] -- Added test 'xmllint' to check XML markup files
+[1.748s] -- Configuring done (1.5s)
+[1.925s] -- Generating done (0.2s)
+[2.004s] -- Build files have been written to: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/build/arduinobot_description
+[2.019s] Invoked command in '/mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nacho/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/build/arduinobot_description -- -j20 -l20
+[2.029s] Invoking command in '/mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nacho/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy /usr/bin/cmake --install /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/build/arduinobot_description
+[2.038s] -- Install configuration: ""
+[2.041s] -- Installing: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes
+[2.052s] -- Installing: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/arduinobot_meshes.zip.zip
+[2.186s] -- Installing: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/basement.STL
+[2.248s] -- Installing: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/base_plate.STL
+[2.340s] -- Installing: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/claw_support.STL
+[2.382s] -- Installing: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/forward_drive_arm.STL
+[2.455s] -- Installing: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/horizontal_arm.STL
+[2.524s] -- Installing: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/left_finger.STL
+[2.553s] -- Installing: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/link.STL
+[2.680s] -- Installing: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/plate.STL
+[2.813s] -- Installing: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/right_finger.STL
+[2.908s] -- Installing: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/round_plate.STL
+[2.965s] -- Installing: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/servo_plate.STL
+[3.013s] -- Installing: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/triangular_link.STL
+[3.060s] -- Installing: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/meshes/vertical_drive_arm.STL
+[3.112s] -- Installing: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf
+[3.124s] -- Installing: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/urdf/arduinobot.urdf.xacro
+[3.155s] -- Up-to-date: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/package_run_dependencies/arduinobot_description
+[3.168s] -- Installing: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/parent_prefix_path/arduinobot_description
+[3.201s] -- Up-to-date: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.sh
+[3.209s] -- Up-to-date: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/ament_prefix_path.dsv
+[3.215s] -- Up-to-date: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/path.sh
+[3.223s] -- Up-to-date: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/environment/path.dsv
+[3.231s] -- Up-to-date: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.bash
+[3.238s] -- Up-to-date: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.sh
+[3.246s] -- Up-to-date: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.zsh
+[3.252s] -- Up-to-date: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/local_setup.dsv
+[3.259s] -- Installing: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.dsv
+[3.287s] -- Up-to-date: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_description/share/ament_index/resource_index/packages/arduinobot_description
+[3.297s] -- Up-to-date: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig.cmake
+[3.303s] -- Up-to-date: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/cmake/arduinobot_descriptionConfig-version.cmake
+[3.314s] -- Up-to-date: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.xml
+[3.319s] Invoked command in '/mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nacho/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy /usr/bin/cmake --install /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/build/arduinobot_description

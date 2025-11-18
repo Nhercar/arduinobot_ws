@@ -1,0 +1,10 @@
+{
+    "cmake.sourceDirectory": "C:/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/src/arduinobot_cpp_examples",
+
+    
+    "urdf-visualizer.packages": {
+      "arduinobot_description": "src/arduinobot_description"
+  }
+
+}
+
