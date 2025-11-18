@@ -667,4 +667,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/arduinobot_cpp_examples_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/simple_publisher.dir/DependInfo.cmake"
+  "CMakeFiles/simple_subscriber.dir/DependInfo.cmake"
   )
