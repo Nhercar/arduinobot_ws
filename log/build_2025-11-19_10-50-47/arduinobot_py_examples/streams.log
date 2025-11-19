@@ -1,0 +1,23 @@
+[3.300s] Invoking command in '/mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/src/arduinobot_py_examples': PYTHONPATH=/mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduinobot_py_examples build --build-base /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/build/arduinobot_py_examples/build install --record /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/build/arduinobot_py_examples/install.log --single-version-externally-managed install_data
+[5.076s] running egg_info
+[5.093s] writing ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/PKG-INFO
+[5.152s] writing dependency_links to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/dependency_links.txt
+[5.191s] writing entry points to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/entry_points.txt
+[5.216s] writing requirements to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/requires.txt
+[5.220s] writing top-level names to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/top_level.txt
+[5.331s] reading manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[5.484s] writing manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[5.487s] running build
+[5.487s] running build_py
+[5.518s] running install
+[5.525s] running install_lib
+[5.632s] running install_data
+[5.646s] running install_egg_info
+[5.666s] removing '/mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples-0.0.0-py3.12.egg-info' (and everything under it)
+[5.698s] Copying ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info to /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples-0.0.0-py3.12.egg-info
+[5.831s] running install_scripts
+[6.188s] Installing simple_parameter script to /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[6.352s] Installing simple_publisher script to /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[6.410s] Installing simple_subscriber script to /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[6.467s] writing list of installed files to '/mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/build/arduinobot_py_examples/install.log'
+[6.495s] Invoked command in '/mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/src/arduinobot_py_examples' returned '0': PYTHONPATH=/mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduinobot_py_examples build --build-base /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/build/arduinobot_py_examples/build install --record /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/build/arduinobot_py_examples/install.log --single-version-externally-managed install_data
