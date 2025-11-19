@@ -1,0 +1,22 @@
+[2.836s] Invoking command in '/mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/src/arduinobot_py_examples': PYTHONPATH=/mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduinobot_py_examples build --build-base /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/build/arduinobot_py_examples/build install --record /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/build/arduinobot_py_examples/install.log --single-version-externally-managed install_data
+[3.609s] running egg_info
+[3.644s] writing ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/PKG-INFO
+[3.651s] writing dependency_links to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/dependency_links.txt
+[3.657s] writing entry points to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/entry_points.txt
+[3.661s] writing requirements to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/requires.txt
+[3.665s] writing top-level names to ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/top_level.txt
+[3.762s] reading manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[3.820s] writing manifest file '../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[3.824s] running build
+[3.825s] running build_py
+[3.861s] running install
+[3.872s] running install_lib
+[4.066s] running install_data
+[4.090s] running install_egg_info
+[4.130s] removing '/mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples-0.0.0-py3.12.egg-info' (and everything under it)
+[4.192s] Copying ../../build/arduinobot_py_examples/arduinobot_py_examples.egg-info to /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages/arduinobot_py_examples-0.0.0-py3.12.egg-info
+[4.513s] running install_scripts
+[4.823s] Installing simple_publisher script to /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[4.835s] Installing simple_subscriber script to /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[4.850s] writing list of installed files to '/mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/build/arduinobot_py_examples/install.log'
+[4.883s] Invoked command in '/mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/src/arduinobot_py_examples' returned '0': PYTHONPATH=/mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduinobot_py_examples build --build-base /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/build/arduinobot_py_examples/build install --record /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/build/arduinobot_py_examples/install.log --single-version-externally-managed install_data

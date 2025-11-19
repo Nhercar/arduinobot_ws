@@ -1,0 +1,29 @@
+[0.291s] Invoking command in '/mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/build/arduinobot_cpp_examples -- -j20 -l20
+[0.756s] [ 50%] Built target simple_subscriber
+[0.762s] [ 66%] Built target simple_publisher
+[1.229s] [ 83%] [32mBuilding CXX object CMakeFiles/simple_parameter.dir/src/simple_parameter.cpp.o[0m
+[5.317s] [100%] [32m[1mLinking CXX executable simple_parameter[0m
+[5.879s] [100%] Built target simple_parameter
+[5.917s] Invoked command in '/mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/build/arduinobot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/build/arduinobot_cpp_examples -- -j20 -l20
+[5.944s] Invoking command in '/mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy /usr/bin/cmake --install /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/build/arduinobot_cpp_examples
+[5.960s] -- Install configuration: ""
+[6.016s] -- Up-to-date: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_publisher
+[6.134s] -- Up-to-date: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_subscriber
+[6.192s] -- Installing: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_parameter
+[6.408s] -- Set non-toolchain portion of runtime path of "/mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_cpp_examples/lib/arduinobot_cpp_examples/simple_parameter" to ""
+[6.458s] -- Installing: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/arduinobot_cpp_examples
+[6.598s] -- Installing: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/arduinobot_cpp_examples
+[6.723s] -- Up-to-date: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/ament_prefix_path.sh
+[6.751s] -- Up-to-date: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/ament_prefix_path.dsv
+[6.772s] -- Up-to-date: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/path.sh
+[6.798s] -- Up-to-date: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/environment/path.dsv
+[6.824s] -- Up-to-date: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.bash
+[6.850s] -- Up-to-date: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.sh
+[6.869s] -- Up-to-date: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.zsh
+[6.886s] -- Up-to-date: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/local_setup.dsv
+[6.902s] -- Installing: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.dsv
+[6.972s] -- Up-to-date: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_cpp_examples/share/ament_index/resource_index/packages/arduinobot_cpp_examples
+[6.993s] -- Up-to-date: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/cmake/arduinobot_cpp_examplesConfig.cmake
+[7.008s] -- Up-to-date: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/cmake/arduinobot_cpp_examplesConfig-version.cmake
+[7.030s] -- Installing: /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.xml
+[7.077s] Invoked command in '/mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/build/arduinobot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/jazzy /usr/bin/cmake --install /mnt/c/Users/nacho/OneDrive/Escritorio/Uni/Trabajo/TutorialROS2/arduinobot_ws/build/arduinobot_cpp_examples
