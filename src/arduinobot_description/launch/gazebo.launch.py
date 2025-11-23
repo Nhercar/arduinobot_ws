@@ -27,6 +27,8 @@ def generate_launch_description():
         value=str(Path(arduinobot_description_dir).parent.resolve())
     )
 
+    ros_distro = os.environ["ROS_DISTRO"]
+
     robot_description = ParameterValue(Command(["xacro ", LaunchConfiguration("model")]))
 
     robot_state_publisher = Node(
@@ -59,8 +61,11 @@ def generate_launch_description():
     gz_ros2_bridge = Node(
         package="ros_gz_bridge",
         executable="parameter_bridge",
+        output="screen",
         arguments=[
-            "/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock",
+            "/image_raw@sensor_msgs/msg/Image@gz.msgs.Image",
+            "/camera_info@sensor_msgs/msg/CameraInfo@gz.msgs.CameraInfo",
+            "/clock@rosgraph_msgs/msg/Clock[gz.msgs.Clock"
         ]
     )
 
