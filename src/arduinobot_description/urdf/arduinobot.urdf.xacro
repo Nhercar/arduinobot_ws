@@ -4,6 +4,9 @@
 
     <xacro:arg name="is_ignition" default="false"/>
 
+    <xacro:include filename="$(find arduinobot_description)/urdf/arduinobot_gazebo.xacro"></xacro:include>
+    <xacro:include filename="$(find arduinobot_description)/urdf/arduinobot_ros2_control.xacro"></xacro:include>
+
     <xacro:property name="PI" value="3.14159"/>
     <xacro:property name="effort" value="30.0"/>
     <xacro:property name="velocity" value="10.0"/>
