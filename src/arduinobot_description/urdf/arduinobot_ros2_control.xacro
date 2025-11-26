@@ -6,12 +6,12 @@
     <ros2_control type="system" name="RobotSystem">
         <xacro:if value="$(arg is_ignition)">
            <hardware>
-                <plugin/>ign_ros2_control/IgnitionSystem
+                <plugin>ign_ros2_control/IgnitionSystem</plugin>
            </hardware>
         </xacro:if>
         <xacro:unless value="$(arg is_ignition)">
             <hardware>
-                <plugin/>gz_ros2_control/GazeboSimSystem
+                <plugin>gz_ros2_control/GazeboSystem</plugin>
            </hardware>  
         </xacro:unless>
 
