@@ -27,6 +27,7 @@ def generate_launch_description():
         output="screen",            
     )
 
+    ###### This node is already created by the gz_ros2_control plugin in Jazzy. Launching a second one creates problems
 
     # controller_manager = Node(
     #     package="controller_manager",
