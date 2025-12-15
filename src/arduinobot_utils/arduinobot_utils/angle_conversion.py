@@ -27,6 +27,7 @@ class AnglesConverter(Node):
         self.get_logger().info("Convert -> x: %f, y: %f, z: %f, w: %f to euler." % (req.x, req.y, req.z, req.w))
         (res.roll, res.pitch, res.yaw) = euler_from_quaterion(req.x, req.y, req.z, req.w)
         self.get_logger().info("Response Roll: %f, pitch: %f, yaw: %f to quaternion." % (res.roll, res.pitch, res.yaw))
+        return res
     
        
 

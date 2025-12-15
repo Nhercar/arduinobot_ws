@@ -4,7 +4,17 @@
     
     "urdf-visualizer.packages": {
       "arduinobot_description": "src/arduinobot_description"
-  }
+  },
+  "python.autoComplete.extraPaths": [
+    "/home/sistemas/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages",
+    "/home/sistemas/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages",
+    "/opt/ros/jazzy/lib/python3.12/site-packages"
+  ],
+  "python.analysis.extraPaths": [
+    "/home/sistemas/arduinobot_ws/install/arduinobot_py_examples/lib/python3.12/site-packages",
+    "/home/sistemas/arduinobot_ws/install/arduinobot_msgs/lib/python3.12/site-packages",
+    "/opt/ros/jazzy/lib/python3.12/site-packages"
+  ]
 
 }
 
