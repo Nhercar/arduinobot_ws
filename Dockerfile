@@ -1,0 +1,35 @@
+# 1. Usamos la base oficial de ROS Jazzy Desktop que ya tienes
+FROM osrf/ros:jazzy-desktop-full
+
+# 2. Evitar preguntas interactivas durante la instalación
+ENV DEBIAN_FRONTEND=noninteractive
+
+# 3. Crear el usuario 'sistemas' con el mismo ID que tu Ubuntu (1000)
+# Esto es lo que evita los problemas de permisos al hacer colcon build
+ARG USERNAME=sistemas
+ARG USER_UID=1000
+ARG USER_GID=$USER_UID
+
+RUN usermod -l sistemas ubuntu && \
+    groupmod -n sistemas ubuntu && \
+    usermod -d /home/sistemas -m sistemas && \
+    apt-get update && apt-get install -y sudo && \
+    echo "sistemas ALL=(root) NOPASSWD:ALL" > /etc/sudoers.d/sistemas && \
+    chmod 0440 /etc/sudoers.d/sistemas
+
+# 4. Instalar las herramientas que añadiste manualmente
+RUN apt-get update && apt-get install -y \
+    ros-jazzy-joint-state-publisher-gui \
+    python3-pip \
+    && rm -rf /var/lib/apt/lists/*
+
+# 5. Configurar el entorno de trabajo
+USER $USERNAME
+WORKDIR /home/$USERNAME/arduinobot_ws
+
+# 6. Cargar ROS automáticamente para el usuario
+RUN echo "source /opt/ros/jazzy/setup.bash" >> /home/sistemas/.bashrc && \
+    echo 'if [ -f "/home/sistemas/arduinobot_ws/install/setup.bash" ]; then source "/home/sistemas/arduinobot_ws install/setup.bash"; fi' >> /home/sistemas/.bashrc
+
+CMD ["bash"]
+
