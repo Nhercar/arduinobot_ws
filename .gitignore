@@ -5,6 +5,4 @@ install/
 
 build/
 .vscode/
-.vscode/settings.json
-
 .venv/
