@@ -10,14 +10,16 @@ IMAGE_NAME="nhcar/arduinobot:v1"
 # Esto evita que el volumen falle si lanzas el script desde otra carpeta
 DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-sudo docker run -e DISPLAY=$DISPLAY \
-           -e USER=$USER \
-           -v /tmp/.X11-unix/:/tmp/.X11-unix/ \
-           -v "$DIR":/home/sistemas/arduinobot_ws/ \
-           --device /dev/dri:/dev/dri \
-           -it \
-           --rm \
-           --network=host \
-           --name ros2_jazzy \
-           --hostname $USER \
-           $IMAGE_NAME
+# Ejecutar el contenedor
+sudo docker run -it --rm \
+    --name ros2_jazzy \
+    --network host \
+    --privileged \
+    --device /dev/dri:/dev/dri \
+    --env="DISPLAY=$DISPLAY" \
+    --env="QT_X11_NO_MITSHM=1" \
+    --env="XDG_RUNTIME_DIR=/tmp/runtime-sistemas" \
+    --volume /tmp/.X11-unix:/tmp/.X11-unix:rw \
+    --volume "$DIR":/home/sistemas/arduinobot_ws:rw \
+    --hostname sistemas \
+    $IMAGE_NAME

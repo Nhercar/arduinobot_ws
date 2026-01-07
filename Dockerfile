@@ -17,9 +17,15 @@ RUN usermod -l sistemas ubuntu && \
     echo "sistemas ALL=(root) NOPASSWD:ALL" > /etc/sudoers.d/sistemas && \
     chmod 0440 /etc/sudoers.d/sistemas
 
-# 4. Instalar las herramientas que añadiste manualmente
+# 4. Instalar herramientas y GZ_ROS2_CONTROL
 RUN apt-get update && apt-get install -y \
     ros-jazzy-joint-state-publisher-gui \
+    ros-jazzy-gz-ros2-control \
+    ros-jazzy-ros-gz-sim \
+    ros-jazzy-ros-gz-bridge \
+    ros-jazzy-ros2-control \
+    ros-jazzy-ros2-controllers \
+    ros-jazzy-xacro \
     python3-pip \
     && rm -rf /var/lib/apt/lists/*
 
