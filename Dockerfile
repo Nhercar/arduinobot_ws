@@ -26,6 +26,8 @@ RUN apt-get update && apt-get install -y \
     ros-jazzy-ros2-control \
     ros-jazzy-ros2-controllers \
     ros-jazzy-xacro \
+    ros-jazzy-tf-transformations \
+    python3-transforms3d \
     python3-pip \
     && rm -rf /var/lib/apt/lists/*
 
