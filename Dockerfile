@@ -28,6 +28,9 @@ RUN apt-get update && apt-get install -y \
     ros-jazzy-xacro \
     ros-jazzy-tf-transformations \
     python3-transforms3d \
+    ros-jazzy-moveit \
+    ros-jazzy-moveit-ros-visualization \
+    ros-jazzy-moveit-servo \
     python3-pip \
     && rm -rf /var/lib/apt/lists/*
 
