@@ -31,6 +31,7 @@ RUN apt-get update && apt-get install -y \
     ros-jazzy-moveit \
     ros-jazzy-moveit-ros-visualization \
     ros-jazzy-moveit-servo \
+    ros-jazzy-moveit-configs-utils \
     python3-pip \
     && rm -rf /var/lib/apt/lists/*
 

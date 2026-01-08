@@ -1,8 +1,8 @@
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument
 from  launch.substitutions import LaunchConfiguration
-from  moveit_configs_utils import MoveItConfigBuilder
-from ament_index_python.packages import get_package_shared_directory
+from  moveit_configs_utils import MoveItConfigsBuilder
+from ament_index_python.packages import get_package_share_directory
 import os
 from launch_ros.actions import Node
 
@@ -16,10 +16,11 @@ def  generate_launch_description():
     is_sim = LaunchConfiguration("is_sim")
 
     moveit_config =(
-        MoveItConfigBuilder("arduinobot",  package_name="arduinobot_moveit")
-        .robot_description(file_path=os.path.join(get_package_shared_directory("arduinobot_description"), "urdf", "arduinobot.urdf.xacro"))
+        MoveItConfigsBuilder("arduinobot",  package_name="arduinobot_moveit")
+        .robot_description(file_path=os.path.join(get_package_share_directory("arduinobot_description"), "urdf", "arduinobot.urdf.xacro"))
         .robot_description_semantic(file_path="config/arduinobot.srdf")
         .trajectory_execution(file_path="config/moveit_controllers.yaml")
+        .planning_pipelines(pipelines=["ompl"]) # Esto busca config/ompl_planning.yaml
         .to_moveit_configs()
     )
 
@@ -27,11 +28,11 @@ def  generate_launch_description():
         package="moveit_ros_move_group",
         executable="move_group",
         output="screen",
-        parameter=[moveit_config.to_dict(), {"use_sim_time": is_sim}, {"publish_robot_descripion_semantic": True}],
-        arguments=["--ros-args", "log-level", "info"],
+        parameters=[moveit_config.to_dict(), {"use_sim_time": is_sim}, {"publish_robot_description_semantic": True}],
+        arguments=["--ros-args", "--log-level", "info"],
     )
 
-    rviz_config = os.path.join(get_package_shared_directory("arduinobot_moveit"), "config", "moveit.rviz")
+    rviz_config = os.path.join(get_package_share_directory("arduinobot_moveit"), "config", "moveit.rviz")
 
     rviz_node = Node(
         package="rviz2",
@@ -40,8 +41,8 @@ def  generate_launch_description():
         output="screen",
         arguments=["-d", rviz_config],
         parameters=[moveit_config.robot_description,
-                    moveit_config.robot_description_semantic
-                    moveit_config.robot_description_kinematics
+                    moveit_config.robot_description_semantic,
+                    moveit_config.robot_description_kinematics,
                     moveit_config.joint_limits]
     )
 
