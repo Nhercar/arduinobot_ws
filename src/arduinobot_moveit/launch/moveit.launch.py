@@ -17,10 +17,16 @@ def  generate_launch_description():
 
     moveit_config =(
         MoveItConfigsBuilder("arduinobot",  package_name="arduinobot_moveit")
-        .robot_description(file_path=os.path.join(get_package_share_directory("arduinobot_description"), "urdf", "arduinobot.urdf.xacro"))
+        .robot_description(file_path=os.path.join(
+            get_package_share_directory("arduinobot_description"),
+            "urdf",
+            "arduinobot.urdf.xacro"))
         .robot_description_semantic(file_path="config/arduinobot.srdf")
         .trajectory_execution(file_path="config/moveit_controllers.yaml")
-        .planning_pipelines(pipelines=["ompl"]) # Esto busca config/ompl_planning.yaml
+        .planning_pipelines(
+            pipelines=["ompl", "pilz_industrial_motion_planner"],
+            default_planning_pipeline="ompl"
+        )
         .to_moveit_configs()
     )
 

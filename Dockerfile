@@ -32,6 +32,8 @@ RUN apt-get update && apt-get install -y \
     ros-jazzy-moveit-ros-visualization \
     ros-jazzy-moveit-servo \
     ros-jazzy-moveit-configs-utils \
+    ros-jazzy-moveit-setup-assistant \
+    python3-lark \
     python3-pip \
     && rm -rf /var/lib/apt/lists/*
 
@@ -41,7 +43,7 @@ WORKDIR /home/$USERNAME/arduinobot_ws
 
 # 6. Cargar ROS automáticamente para el usuario
 RUN echo "source /opt/ros/jazzy/setup.bash" >> /home/sistemas/.bashrc && \
-    echo 'if [ -f "/home/sistemas/arduinobot_ws/install/setup.bash" ]; then source "/home/sistemas/arduinobot_ws install/setup.bash"; fi' >> /home/sistemas/.bashrc
+    echo 'if [ -f "/home/sistemas/arduinobot_ws/install/setup.bash" ]; then source "/home/sistemas/arduinobot_ws/install/setup.bash"; fi' >> /home/sistemas/.bashrc
 
 CMD ["bash"]
 
