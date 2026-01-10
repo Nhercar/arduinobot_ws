@@ -61,7 +61,8 @@ def generate_launch_description():
             "joint_state_broadcaster",
             "--controller-manager",
             "/controller_manager"
-        ]
+        ],
+        parameters=[{"use_sim_time": is_sim}] 
     )
 
     arm_controller_spawner = Node(
@@ -71,7 +72,8 @@ def generate_launch_description():
             "arm_controller",
             "--controller-manager",
             "/controller_manager"
-        ]
+        ],
+        parameters=[{"use_sim_time": is_sim}]
     )
 
     gripper_controller_spawner = Node(
@@ -81,7 +83,8 @@ def generate_launch_description():
             "gripper_controller",
             "--controller-manager",
             "/controller_manager"
-        ]
+        ],
+        parameters=[{"use_sim_time": is_sim}]
     )
 
     return LaunchDescription([
