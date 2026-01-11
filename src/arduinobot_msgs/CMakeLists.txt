@@ -15,6 +15,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/AddTwoInts.srv"
   "srv/EulerToQuaternion.srv"
   "srv/QuaternionToEuler.srv"
+  "action/Fibonacci.action"
 
 )
 
