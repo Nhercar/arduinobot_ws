@@ -56,7 +56,7 @@ install(TARGETS
   ) 
 
 install(TARGETS 
-  simple_action_server
+  simple_action_server_node
   ARCHIVE DESTINATION lib 
   LIBRARY DESTINATION lib 
   RUNTIME DESTINATION bin 

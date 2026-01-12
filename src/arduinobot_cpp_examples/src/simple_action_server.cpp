@@ -49,15 +49,15 @@ private:
         rclcpp::Rate loop_rate(1);
 
         const auto goal = goal_handle->get_goal();
-        auto feedback = std::shared_ptr<arduinobot_msgs::action::Fibonacci::Feedback>();
+        auto feedback = std::make_shared<arduinobot_msgs::action::Fibonacci::Feedback>();
         auto& sequence = feedback->partial_sequence;
         
         sequence.push_back(0);
         sequence.push_back(1);
 
-        auto result = std::shared_ptr<arduinobot_msgs::action::Fibonacci::Result>();
+        auto result = std::make_shared<arduinobot_msgs::action::Fibonacci::Result>();
 
-        for(int i; i < goal->order && rclcpp::ok(); ++i)
+        for(int i = 1; i < goal->order && rclcpp::ok(); ++i)
         {
             // Check if the goal is canceled
             if (goal_handle->is_canceling()) {
