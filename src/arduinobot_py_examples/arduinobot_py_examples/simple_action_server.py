@@ -21,4 +21,19 @@ class SimpleActionServer(Node):
             self.get_logger().info("Feedback: " + str(feedback_msg.partial_sequence))
             goal_handle.publish_feedback(feedback_msg)
             time.sleep(1)
+
+        goal_handle.succeed()
+        result = Fibonacci.Result()
+        result.sequence = feedback_msg.partial_sequence
+        return result
         
+
+def main():
+    rclpy.init()
+    simple_action_server = SimpleActionServer()
+    rclpy.spin(simple_action_server)
+    simple_action_server.destroy_node()
+    rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()
