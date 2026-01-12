@@ -29,6 +29,9 @@ ament_target_dependencies(simple_service_server rclcpp arduinobot_msgs)
 add_executable(simple_service_client src/simple_service_client.cpp)
 ament_target_dependencies(simple_service_client rclcpp arduinobot_msgs)
 
+add_executable(simple_action_client src/simple_action_client.cpp)
+ament_target_dependencies(simple_action_client rclcpp arduinobot_msgs rclcpp_action rclcpp_components)
+
 add_library(simple_action_server SHARED src/simple_action_server.cpp)
 target_include_directories(simple_action_server PRIVATE
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
@@ -52,6 +55,7 @@ install(TARGETS
   simple_parameter
   simple_service_server
   simple_service_client
+  simple_action_client
   DESTINATION lib/${PROJECT_NAME}
   ) 
 
