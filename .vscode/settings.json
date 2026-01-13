@@ -1,4 +1,10 @@
 {
+  "python.defaultInterpreterPath": "/usr/bin/python3",
+  "python.analysis.extraPaths": [
+    "/opt/ros/jazzy/lib/python3.12/site-packages",
+    "/opt/ros/jazzy/local/lib/python3.12/dist-packages"
+  ]
+}{
     "cmake.sourceDirectory": "/home/sistemas/arduinobot_ws/src/arduinobot_controller",
 
     

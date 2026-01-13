@@ -29,6 +29,7 @@ RUN apt-get update && apt-get install -y \
     ros-jazzy-tf-transformations \
     python3-transforms3d \
     ros-jazzy-moveit \
+    ros-jazzy-moveit-py \
     ros-jazzy-moveit-ros-visualization \
     ros-jazzy-moveit-servo \
     ros-jazzy-moveit-configs-utils \

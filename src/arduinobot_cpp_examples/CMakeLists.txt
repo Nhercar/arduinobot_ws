@@ -12,6 +12,7 @@ find_package(rcl_interfaces REQUIRED)
 find_package(arduinobot_msgs REQUIRED)
 find_package(rclcpp_action REQUIRED)
 find_package(rclcpp_components REQUIRED)
+find_package(moveit_ros_planning_interface REQUIRED)
 
 
 add_executable(simple_publisher src/simple_publisher.cpp)
@@ -49,6 +50,9 @@ rclcpp_components_register_node(simple_action_server
   EXECUTABLE simple_action_server_node
 ) 
 
+add_executable(simple_moveit_interface src/simple_moveit_interface.cpp)
+ament_target_dependencies(simple_moveit_interface rclcpp moveit_ros_planning_interface)
+
 install(TARGETS
   simple_publisher
   simple_subscriber
@@ -56,6 +60,7 @@ install(TARGETS
   simple_service_server
   simple_service_client
   simple_action_client
+  simple_moveit_interface
   DESTINATION lib/${PROJECT_NAME}
   ) 
 
